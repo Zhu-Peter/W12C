@@ -1,0 +1,13 @@
+.post{
+    width: 400px;
+    border: solid blue 2px;
+    padding: 20px;
+}
+
+#posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: start;
+    gap: 10px;
+    /* width: 90vw; */
+}
